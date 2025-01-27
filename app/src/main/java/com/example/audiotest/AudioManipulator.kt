@@ -30,7 +30,7 @@ class AudioManipulator {
             audioRecord = AudioRecord(
                 MediaRecorder.AudioSource.VOICE_COMMUNICATION,
                 sampleRate,
-                AudioFormat.CHANNEL_IN_MONO,
+                AudioFormat.CHANNEL_OUT_STEREO,
                 AudioFormat.ENCODING_PCM_16BIT,
                 bufferSize
             )
